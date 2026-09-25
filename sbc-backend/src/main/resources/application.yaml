@@ -1,0 +1,12 @@
+
+spring:
+  application:
+    name: sahyadri-bconnect-backend
+
+server:
+  port: 8080
+
+logging:
+  level:
+    root: INFO
+    com.sbc: DEBUG

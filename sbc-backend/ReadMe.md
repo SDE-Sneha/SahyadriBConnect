@@ -46,3 +46,25 @@ sahyadri-backend/
 │           └── mcp/
 │
 └── README.md
+
+
+
+FEature 
+F1 - 
+F2 - 
+F3 - Transition from one state to another
+F4 -  Controlled Business Status Workflow
+┌───────────┐
+│  PENDING  │
+└─────┬─────┘
+│
+┌─────┴─────┐
+↓           ↓
+APPROVED      REJECTED
+│
+↓
+SUSPENDED
+│
+↓
+APPROVED
+

@@ -1,12 +1,16 @@
+  spring:
+    application:
+      name: sahyadri-bconnect-backend
 
-spring:
-  application:
-    name: sahyadri-bconnect-backend
+    ai:
+      mcp:
+        server:
+          protocol: STREAMABLE
 
-server:
-  port: 8080
+  server:
+    port: 8080
 
-logging:
-  level:
-    root: INFO
-    com.sbc: DEBUG
+  logging:
+    level:
+      root: INFO
+      com.sbc: DEBUG
